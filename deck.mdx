@@ -1,0 +1,187 @@
+export { hack as theme } from 'mdx-deck/themes'
+
+
+# Intro to Git and GitHub
+---
+
+# Hello!
+My Name is Musthaq Ahamad (@haxzie)  
+GitHub Campus Expert | Community Lead SOSC
+---
+
+# What is version control?
+- hello.c
+- hello_1.c
+- hello_1_final.c
+- hello_ffff_final_22.c
+
+---
+
+# Why Git?
+Makes life easier!
+
+---
+
+## Let's get started!
+  
+✓  Installed Git  
+✓ Created a GitHub Account  
+✓ Ready with a Terminal/GitBash
+---
+
+# What is a Repository?
+A container for your project. A git repo keeps track of all the changes happening inside it.
+Or Simply, it's a smart directory! 
+
+---
+_ppssssttt. cheatsheats..._
+---
+_Let git know who you are_
+#### $ git config --global user.name _"USERNAME"_
+#### $ git config --global user.email _"EMAIL"_
+---
+
+_Making an existing directory a git repository_
+# $ git init
+
+---
+
+_initialize a new directory as a git repository_
+## $ git init &lt;NAME&gt;
+
+---
+# Commit?
+Snapshot of your repository at a particular time.  
+A Group photo of all the files in your repository. :)
+
+---
+
+_Staging files to commit_
+## $ git add FILENAME
+OR
+### $ git add .
+### $ git add -A
+
+---
+
+_Commiting the changes_
+### $ git commit -m "YOUR COMMIT MESSAGE"
+
+---
+
+_Viewing all the commits_
+### $ git log
+_TL;DR_
+### $ git log --oneline
+
+---
+
+# HEAD
+Head is the reference to the last commit in currently checked out branch.  
+Or, What you see is where your HEAD at.
+
+---
+* 6453d3e "Add swap logic" **<-- HEAD**  
+73ad322 "Update Swap.c"  
+6374be4 "Add swap.c"
+---
+
+# Detached HEAD
+Going back in time.
+
+### $ git checkout COMMITHASH
+
+---
+
+6453d3e "Add swap logic"   
+**73ad322 "Update Swap.c"** **<-- HEAD**  
+6374be4 "Add swap.c"
+
+---
+
+## Deleting commits
+Going back to a particular commit. It'll delete all the commits after it. Because, it's a linked list.
+### $ git reset --hard COMMITHASH
+
+---
+# Branching
+Doing it the right way!
+
+---
+
+_Listing all the branches_
+## $ git branch
+_Creating a branch_
+## $ git branch _NAME_
+
+---
+
+_Checking out to a branch_
+## $ git checkout _BRANCHNAME_
+_Or, here's a shortcut_
+## $ git checkout -b _BRANCHNAME_
+
+---
+### _Merging branches_  
+* Checkout to the branch which you want to merge to.
+* Cast the below spell to merge any other branch.
+## $ git merge _BRANCHNAME_
+
+---
+
+_Deleting a Branch_
+## $ git branch -d _BRANCHNAME_
+
+---
+
+# Resolving conflicts
+Scary part.
+
+---
+
+### Creating a Remote repository on GitHub
+- Login to your GitHub account
+- Create a new repository 
+- Copy the repo URL
+
+---
+
+_Adding remote URL to your local repo_
+### $ git remote add _NAME_ _URL_
+
+---
+
+_Listing all the remotes added in your repo_
+### $ git remote -v
+_Deleting a remote _URL_
+### $ git remote rm _NAME_
+
+---
+
+_Pushing your changes to remote a.k.a GitHub_
+### $ git push -u origin master
+_Syntactically speaking..._
+### $ git push _NAME_ _BRANCH_
+
+---
+
+_Updating your local repo with remote changes_
+### $ git pull origin master
+_Syntactically speaking..._
+### $ git pull _NAME_ _BRANCH_
+
+---
+_Cloning a remote project to local machine_
+### $ git clone _URL_
+---
+## Let's take a Challenge
+Submit your pull request to a project on GitHub!  
+Let's start with..
+## [gitme.js.org](https://gitme.js.org)
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		  "start": "mdx-deck deck.mdx",
+		  "build": "mdx-deck build deck.mdx"
+	}
+}
