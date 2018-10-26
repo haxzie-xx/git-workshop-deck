@@ -1,6 +1,7 @@
 {
 	"scripts": {
 		  "start": "mdx-deck deck.mdx",
-		  "build": "mdx-deck build deck.mdx"
+		  "build": "mdx-deck build deck.mdx",
+		  "deploy": "mdx-deck build deck.mdx && gh-pages -d dist"
 	}
 }
